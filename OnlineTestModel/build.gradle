@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.android.onlinetestmodel"
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -17,7 +17,21 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+//    configurations{
+//        all*.exclude module: 'servlet-api'
+//    }
 
+    sourceSets { main { res.srcDirs =
+            [
+                    'src/main/res/layout/Security',
+                    'src/main/res/layout/TableviewCell',
+                    'src/main/res/layout/CommanView',
+                    'src/main/res/layout/Test',
+                    'src/main/res'
+
+            ]
+        }
+    }
 }
 
 dependencies {
@@ -25,4 +39,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.android.support:design:23.2.0'
+    compile 'com.android.support:support-v13:23.2.0'
+    compile 'com.android.support:support-v4:23.2.0'
 }
