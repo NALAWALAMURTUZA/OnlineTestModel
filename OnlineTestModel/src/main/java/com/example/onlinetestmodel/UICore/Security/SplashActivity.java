@@ -1,9 +1,9 @@
-package Onlinetestmodel.UICore.Security;
+package com.example.onlinetestmodel.UICore.Security;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.android.onlinetestmodel.R;
+import com.example.onlinetestmodel.R;
 
 public class SplashActivity extends AppCompatActivity {
 

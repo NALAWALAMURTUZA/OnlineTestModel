@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.onlinetestmodel">
+    package="com.example.onlinetestmodel">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="Onlinetestmodel.UICore.Security.LoginActivity"
+            android:name=".UICore.Security.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="Onlinetestmodel.UICore.Security.SplashActivity"
+            android:name=".UICore.Security.SplashActivity"
             android:label="@string/title_activity_splash"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
