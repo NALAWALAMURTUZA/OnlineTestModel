@@ -6,5 +6,5 @@ package Comman;
 public class ServiceUrl {
 
     public static String ServerUrl = "http://restaurantfinder.ro/rfapp/RF_admin_api/index.php?admin_api/";
-    public static String Login = ServerUrl + "init" ;
+    public static String Init = ServerUrl + "init" ;
 }
